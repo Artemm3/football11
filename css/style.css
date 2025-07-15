@@ -1,0 +1,205 @@
+body {
+    font-family: "Arial";
+    margin: 0;
+}
+
+
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.left-container img{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-container em {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: normal;
+    display: block;
+    padding-bottom: 10px;
+   padding-top: 13px;
+    padding-left: 10px;
+}
+
+
+
+
+.left-container strong {
+    font-size: 24px;
+    line-height: 7px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+
+
+.left-container {
+    display: flex;
+}
+
+.football-manager{
+    padding-top: 20px;
+}
+
+.right-block p {
+    display: flex;
+
+}
+
+.right-block {
+    padding-top: 40px;
+}
+
+.phone-number {
+    padding-left: 30px;
+}
+
+.schedule-photo {
+    padding-right: 10px;
+}
+
+.working {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-align: right;
+    margin: 20px 0;
+}
+
+.number {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.schedule {
+    display: flex;
+
+}
+
+.information {
+    display: flex;
+
+
+}
+
+.schedule a {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.schedule p {
+    text-align: center;
+}
+
+.main-info {
+    padding-top: 31px;
+}
+
+
+h1 {
+    font-size: 24px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.main-info p {
+    font-size: 14px;
+    color: #343434;
+}
+
+.main-info p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+
+
+h2 {
+    font-size: 18px;
+    line-height: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #39930d;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    padding-right: 60px;
+
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+
+.left-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.left-block a {
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #343434;
+
+}
+
+.footer {
+    background-color: #39930d;
+
+
+
+}
+
+.copy p {
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    padding-top: 13px;
+}
+
+.images-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.images-footer ul {
+    display: flex;
+    column-gap: 11px;
+      padding-top: 7px;
+}
