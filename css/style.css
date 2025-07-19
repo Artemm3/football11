@@ -1,6 +1,7 @@
 body {
     font-family: "Arial";
     margin: 0;
+    background-color: #f3f3f3;
 }
 
 
@@ -11,82 +12,82 @@ body {
     padding: 0 10px;
 }
 
-.left-container img{
-    padding-top: 25px;
-    padding-bottom: 15px;
-}
 
 
 
 .header-line {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 
-.left-container em {
+
+
+.logo em {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-style: normal;
     display: block;
-    padding-bottom: 10px;
-   padding-top: 13px;
-    padding-left: 10px;
+}
+
+.up-image img {
+    width: 100%;
+}
+
+.football-manager {
+    margin-left: 10px;
 }
 
 
 
-
-.left-container strong {
+.logo strong {
     font-size: 24px;
-    line-height: 7px;
     text-transform: uppercase;
     color: #39930d;
     font-weight: bold;
-    padding-left: 10px;
+}
 
+
+.bottom-images {
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
-.left-container {
+.logo {
     display: flex;
 }
 
-.football-manager{
-    padding-top: 20px;
-}
+
 
 .right-block p {
     display: flex;
 
 }
 
-.right-block {
-    padding-top: 40px;
-}
 
 .phone-number {
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 .schedule-photo {
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .working {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-weight: bold;
     text-align: right;
-    margin: 20px 0;
+    padding-top: 3px;
+
 }
 
 .number {
     text-align: right;
-    margin: 20px 0;
+
 }
 
 .schedule {
@@ -102,7 +103,6 @@ body {
 
 .schedule a {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-weight: bold;
     text-decoration: none;
@@ -114,13 +114,12 @@ body {
 }
 
 .main-info {
-    padding-top: 31px;
+    padding-bottom: 47px;
 }
 
 
 h1 {
     font-size: 24px;
-    line-height: 7px;
     color: #39930d;
     font-weight: bold;
 }
@@ -140,17 +139,12 @@ h1 {
 
 h2 {
     font-size: 18px;
-    line-height: 7px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
     background-color: #39930d;
     color: #ffffff;
-    text-align: center;
-    display: flex;
-    align-self: center;
-    padding-right: 60px;
-
+    margin-right: 20px;
 
 }
 
@@ -158,14 +152,11 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-
+    column-gap: 85px;
 }
 
 
-.left-block {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 .left-block a {
@@ -179,17 +170,20 @@ ul {
 
 .footer {
     background-color: #39930d;
-
-
-
 }
 
 .copy p {
     font-size: 14px;
     color: #ffffff;
     display: flex;
-    padding-top: 13px;
+    margin-top: 20px;
+
+
 }
+
+
+
+
 
 .images-copyright {
     display: flex;
@@ -201,5 +195,4 @@ ul {
 .images-footer ul {
     display: flex;
     column-gap: 11px;
-      padding-top: 7px;
 }
