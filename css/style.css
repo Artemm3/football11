@@ -2,6 +2,7 @@ body {
     font-family: "Arial";
     margin: 0;
     background-color: #f3f3f3;
+    cursor: url('/cursor/football.cur'), auto;
 }
 
 .wrapper {
@@ -9,6 +10,10 @@ body {
     margin: auto;
     padding: 0 10px;
     box-sizing: border-box;
+}
+
+a:hover {
+    cursor: url('/cursor/carrot.cur'), auto;
 }
 
 .header-line {
@@ -77,6 +82,28 @@ body {
 .information {
     display: flex;
     column-gap: 20px;
+}
+
+.number a{
+    transition: 1s all ease;
+}
+
+.left-block a{
+    transition: 1s all ease;
+}
+
+.left-block li:hover >a{
+    background-color: #39930d;
+    border-radius: 10px;
+    padding: 8px;
+    color: #fff;
+}
+
+.number a:hover {
+  background-color: #39930d;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
 }
 
 .schedule a {
@@ -161,4 +188,9 @@ h2 {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.images-footer img:hover{
+    background-color: black;
+    border-radius: 50%;
 }
