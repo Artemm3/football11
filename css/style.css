@@ -16,9 +16,21 @@ a:hover {
     cursor: url('/cursor/carrot.cur'), auto;
 }
 
+.schedule{
+    position: relative;
+    
+}
+
+.phone-number{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
 .header-line {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 15px 0;
 }
 
@@ -48,6 +60,7 @@ a:hover {
 
 .bottom-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -55,15 +68,14 @@ a:hover {
     display: flex;
 }
 
-.phone-number {
-    margin-left: 30px;
-}
+
 
 .schedule-photo {
     margin-right: 10px;
 }
 
 .working {
+    margin-right: 30px;
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
@@ -82,6 +94,7 @@ a:hover {
 .information {
     display: flex;
     column-gap: 20px;
+   
 }
 
 .number a{
@@ -193,4 +206,17 @@ h2 {
 .images-footer img:hover{
     background-color: black;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 650px) {
+    .bottom-images{
+        row-gap: 5px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    .information{
+         flex-wrap: wrap;
+    }
 }
