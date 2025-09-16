@@ -12,16 +12,17 @@ body {
     box-sizing: border-box;
 }
 
+
 a:hover {
     cursor: url('/cursor/carrot.cur'), auto;
 }
 
-.schedule{
+.schedule {
     position: relative;
-    
+
 }
 
-.phone-number{
+.phone-number {
     position: absolute;
     left: 50%;
     top: 30%;
@@ -45,6 +46,10 @@ a:hover {
     width: 100%;
     vertical-align: bottom;
     margin-bottom: 10px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .football-manager {
@@ -60,8 +65,8 @@ a:hover {
 
 .bottom-images {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 13px;
 }
 
 .logo {
@@ -94,18 +99,18 @@ a:hover {
 .information {
     display: flex;
     column-gap: 20px;
-   
+
 }
 
-.number a{
+.number a {
     transition: 1s all ease;
 }
 
-.left-block a{
+.left-block a {
     transition: 1s all ease;
 }
 
-.left-block li:hover >a{
+.left-block li:hover>a {
     background-color: #39930d;
     border-radius: 10px;
     padding: 8px;
@@ -113,10 +118,10 @@ a:hover {
 }
 
 .number a:hover {
-  background-color: #39930d;
-  border-radius: 10px;
-  padding: 5px;
-  color: #fff;
+    background-color: #39930d;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
 }
 
 .schedule a {
@@ -203,21 +208,42 @@ h2 {
     margin: 0;
 }
 
-.images-footer img:hover{
+.images-footer img:hover {
     background-color: black;
     border-radius: 50%;
 }
 
+
+
+
+@media screen and (max-width:330px) {
+    .left-block ul {
+        min-width: 100px;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
-    .bottom-images{
+    .bottom-images {
         row-gap: 5px;
         column-gap: 10px;
         justify-content: center;
+        overflow-x: scroll;
     }
 }
 
+
+
 @media screen and (max-width: 723px) {
-    .information{
-         flex-wrap: wrap;
+    .information {
+        flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width:955px) {
+    .bottom-images {
+        column-gap: 5px;
+    }
+
+}
+
