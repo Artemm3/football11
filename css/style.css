@@ -9,7 +9,7 @@ body {
     max-width: 960px;
     margin: auto;
     padding: 0 10px;
-    box-sizing: border-box;
+    background-color: #fff;
 }
 
 
@@ -24,7 +24,7 @@ a:hover {
 
 .phone-number {
     position: absolute;
-    left: 48%;
+    left: 52%;
     top: 30%;
 }
 
@@ -32,7 +32,8 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px 0;
+    background-color: #fff;
+    padding: 15px 10px;
 }
 
 .logo em {
@@ -65,7 +66,8 @@ a:hover {
 .bottom-images {
     display: flex;
     row-gap: 10px;
-    column-gap: 13px;
+    column-gap: 20px;
+    width: 100%;
 }
 
 .logo {
@@ -79,7 +81,7 @@ a:hover {
 }
 
 .working {
-    margin-right: 30px;
+    margin-right: 60px;
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
@@ -155,6 +157,7 @@ h1 {
     color: #343434;
 }
 
+
 h2 {
     font-size: 18px;
     text-transform: uppercase;
@@ -207,6 +210,12 @@ h2 {
     margin: 0;
 }
 
+.foot-wrap {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 10px;
+}
+
 .images-footer img:hover {
     background-color: black;
     border-radius: 50%;
@@ -247,7 +256,7 @@ h2 {
 }
 
 @media screen and (min-width:200px) {
-    .left-block ul{
+    .left-block ul {
         min-width: 340px;
     }
 
