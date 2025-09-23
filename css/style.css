@@ -14,9 +14,7 @@ body {
 }
 
 
-a:hover {
-    cursor: url('/cursor/carrot.cur'), auto;
-}
+
 
 .schedule {
     position: relative;
