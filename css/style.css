@@ -13,9 +13,6 @@ body {
     background-color: #fff;
 }
 
-
-
-
 .schedule {
     position: relative;
 }
@@ -140,7 +137,6 @@ body {
 .number a:hover {
     background-color: #39930d;
     border-radius: 10px;
-    padding: 5px;
     color: #fff;
 }
 
@@ -351,11 +347,17 @@ h2 {
 }
 
 
-@media screen and (min-width:920px) {
+@media screen and (min-width:940px){
+    .bottom-images{
+        column-gap: 13px;
+    }
+    
+}
+
+@media screen and (min-width:960px) {
     .bottom-images {
         overflow-x: visible;
         width: 100%;
-        column-gap: 13px;
     }
 
 }
