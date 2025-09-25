@@ -268,10 +268,6 @@ h2 {
         display: block;
     }
 
-    .left-block ul {
-        min-width: 340px;
-    }
-
     .header-line {
         justify-content: center;
     }
@@ -314,9 +310,14 @@ h2 {
     }
 
 }
+
 @media screen and (min-width:550px) {
     .header-line {
         justify-content: space-between;
+    }
+
+   .left-block ul {
+        min-width: 340px;
     }
 
     .header-line {
@@ -347,11 +348,11 @@ h2 {
 }
 
 
-@media screen and (min-width:940px){
-    .bottom-images{
+@media screen and (min-width:940px) {
+    .bottom-images {
         column-gap: 13px;
     }
-    
+
 }
 
 @media screen and (min-width:960px) {
