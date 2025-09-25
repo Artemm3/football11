@@ -201,14 +201,15 @@ h2 {
 }
 
 .copy p {
+    display: flex;
     font-size: 14px;
     color: #fff;
-    display: flex;
     margin: 0;
 }
 
 .images-copyright {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
@@ -226,7 +227,7 @@ h2 {
 }
 
 .foot-wrap {
-    max-width: 960px;
+    max-width: 950px;
     margin: auto;
     padding: 0 10px;
 }
@@ -278,7 +279,7 @@ h2 {
     }
 
     .working:before {
-        right: 85%;
+        right: 80%;
     }
 
     .bottom-images {
@@ -288,7 +289,7 @@ h2 {
     }
 
     .number::before {
-        right: 85%;
+        right: 80%;
     }
 
     .bottom-images {
@@ -348,7 +349,7 @@ h2 {
 }
 
 
-@media screen and (min-width:940px) {
+@media screen and (min-width:900px) {
     .bottom-images {
         column-gap: 13px;
     }
