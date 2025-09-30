@@ -15,17 +15,18 @@ body {
 
 .schedule {
     position: relative;
+    flex-wrap: wrap;
+    column-gap: 10px;
 }
 
-.phone-number {
-    position: absolute;
-
-    top: 30%;
+.schedule p {
+    margin: 0;
 }
+
 
 .header-line {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #fff;
     padding: 15px 0;
@@ -60,6 +61,7 @@ body {
 
 .bottom-images {
     display: flex;
+    overflow-x: scroll;
     row-gap: 10px;
     column-gap: 13px;
     width: 100%;
@@ -69,15 +71,10 @@ body {
     display: flex;
 }
 
-
-
-.schedule-photo {
-    margin-right: 10px;
-}
-
 .working {
     position: relative;
-    margin-right: 60px;
+    padding-left: 30px;
+
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
@@ -91,12 +88,14 @@ body {
     height: 21px;
     width: 22px;
     top: -10%;
-    right: 100%;
+    left: 0%;
+
 }
 
 .number {
     position: relative;
     text-align: right;
+    padding-left: 20px;
 }
 
 .number::before {
@@ -105,16 +104,19 @@ body {
     background: url(../img/telephone.svg) no-repeat;
     height: 21px;
     width: 21px;
-    right: 95%;
+    left: 0;
 }
 
 .schedule {
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    min-width: 210px;
+
 }
 
 .information {
-    display: flex;
+    display: block;
     column-gap: 20px;
     background-color: #fff;
 }
@@ -237,79 +239,12 @@ h2 {
     border-radius: 50%;
 }
 
-@media screen and (min-width:360px) {
-    .header-line {
-        justify-content: space-between;
-        column-gap: 10px;
+
+@media screen and (min-width:500px) {
+    .header-line{
+        column-gap: 20px;
     }
-
-}
-
-
-
-@media screen and (min-width:320px) {
-    .schedule {
-        min-width: 210px;
-        flex-wrap: wrap;
-    }
-
-    .schedule p {
-        margin: 2px;
-    }
-
-    .number {
-        padding-left: 24px;
-    }
-
-    .information {
-        display: block;
-    }
-
-    .information {
-        display: block;
-    }
-
-    .header-line {
-        justify-content: center;
-    }
-
-    .schedule {
-        padding-top: 5px;
-        display: block;
-    }
-
-    .working:before {
-        right: 80%;
-    }
-
-    .bottom-images {
-        row-gap: 5px;
-        column-gap: 10px;
-        overflow-x: scroll;
-    }
-
-    .number::before {
-        right: 80%;
-    }
-
-    .bottom-images {
-        column-gap: 5px;
-    }
-}
-
-@media screen and (min-width:510px) {
-    .header-line {
-        justify-content: space-between;
-    }
-
-    .working:before {
-        right: 90%;
-    }
-
-    .number::before {
-        left: 0%;
-    }
-
+    
 }
 
 @media screen and (min-width:550px) {
@@ -317,7 +252,7 @@ h2 {
         justify-content: space-between;
     }
 
-   .left-block ul {
+    .left-block ul {
         min-width: 340px;
     }
 
@@ -331,9 +266,7 @@ h2 {
         column-gap: 20px;
     }
 
-    .working:before {
-        right: 105%;
-    }
+
 
 }
 
@@ -341,25 +274,6 @@ h2 {
 @media screen and (min-width:720px) {
     .information {
         display: flex;
-    }
-
-    .information {
-        display: flex;
-    }
-}
-
-
-@media screen and (min-width:900px) {
-    .bottom-images {
-        column-gap: 13px;
-    }
-
-}
-
-@media screen and (min-width:960px) {
-    .bottom-images {
-        overflow-x: visible;
-        width: 100%;
     }
 
 }
