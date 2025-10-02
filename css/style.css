@@ -15,6 +15,7 @@ body {
 
 .schedule {
     position: relative;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 10px;
 }
@@ -61,7 +62,7 @@ body {
 
 .bottom-images {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     row-gap: 10px;
     column-gap: 13px;
     width: 100%;
